@@ -22,7 +22,7 @@ uv run pytest -q
 
 ## Homework flow and answers
 
-1. `GET /healthz` returns `{'status':'ok'}`.
+1. `GET /healthz` returns `{"status":"ok"}`.
 2. `GET /api/orders/standard-1001` records HTTP status **200**.
 3. `GET /api/orders/standard-1002` is missing and records HTTP status **404** in Grafana.
 4. Because no 5xx response occurs for the missing standard order, the 5xx alert is **Normal** (`noDataState: OK`).

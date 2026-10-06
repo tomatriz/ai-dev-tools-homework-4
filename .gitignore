@@ -1,0 +1,10 @@
+.venv/
+.pytest_cache/
+__pycache__/
+*.pyc
+data/
+.env
+incidents/*.json
+incidents/*.md
+!incidents/README.md
+!incidents/express-1002.md
